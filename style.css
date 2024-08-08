@@ -1,0 +1,24 @@
+@import url(./src/css/fonts.css);
+@import url(src/css/celular.css);
+@import url(src/css/desktop.css);
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  width: 100%;
+  height: 100vh;
+}
+
+body{
+  background-color: rgb(16, 23, 40);
+  color: white;
+
+}
+
+.roxa{
+  color: blueviolet;
+}

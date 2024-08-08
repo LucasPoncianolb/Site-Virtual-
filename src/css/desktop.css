@@ -1,0 +1,150 @@
+@media (min-width: 1024px){
+  .container {
+    height: 100vh;
+
+  }
+  .home {
+    display: flex;
+    flex-direction: row;
+  }
+  .esq{
+    padding: 0 50px 0 50px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .esq> h1{
+    font-size: 7rem;
+  }
+  .esq >button{
+    width: 250px;
+    height: 70px;
+    font-size: 27px;
+  }
+  .esq >button:hover{
+    background-image: linear-gradient(to left, rgba(128, 0, 128, 0.793) 40%, rgba(255, 0, 0, 0.857));
+  }
+  .esq >button:active{
+    background-image: linear-gradient(to left, rgba(247, 2, 247, 0.926) 20%, rgba(209, 7, 7, 0.959));
+  }
+
+  .img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+  .img> img{
+    width: 500px;
+  }
+
+
+
+
+  /* parte 2 */
+
+  .infos > h1{
+    font-size: 70px;
+    justify-content: center;
+    padding: 0 60px 0 60px ;
+  }
+  .infos > p {
+    padding: 0 60px 0 60px ;
+    font-size: 40px;
+    justify-content: center;
+  }
+
+  /* parte 3 */
+
+  .divisao {
+    display: flex;
+    flex-direction: row;
+
+  }
+  .esq2{
+    width: 100%;
+  }
+
+  .esq2 > h1 {
+    font-size: 70px;
+  }
+  .esq2 > p {
+    font-size: 35px;
+  }
+
+  .img2{
+    width: 100%;
+  }
+  .img2> img{
+
+    height: 450px;
+  }
+  /* parte 3 */
+  .d2{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .dir3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .dir3 > h1 {
+    font-size: 70px;
+    padding-right: 40px;
+  }
+  .dir3 > p {
+    font-size: 35px;
+    padding-right: 40px;
+  }
+
+
+
+  .img3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+  .img3> img{
+    width: 400px;
+  }
+  /* parte 5 */
+  .esq4{
+    width: 100%;
+  }
+
+  .esq4 > h1 {
+    font-size: 70px;
+    padding-right: 40px;
+  }
+  .esq4 > p {
+    font-size: 35px;
+    padding-right: 40px;
+  }
+
+
+  .img4{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .img4> img{
+    width: 500px;
+  }
+
+  /* footer */
+
+  .container-footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+
+
+}

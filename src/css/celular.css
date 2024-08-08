@@ -1,0 +1,190 @@
+main{
+  height: 100%;
+  width: 100%;
+}
+img{
+
+  border-radius: 50px;
+}
+
+/* parte1 */
+.container {
+  padding: 50px 0 50px 0 ;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin: 10px;
+  height: auto;
+
+
+}
+
+.home{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.esq > h1{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.esq > button{
+
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-image: linear-gradient(to right, purple 40%, red);
+  border-radius: 30px;
+  font-weight: bold;
+}
+.esq {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.img{
+  width: 300px;
+
+
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.img > img{
+  width: 300px;
+
+
+}
+
+/* Parte 2 */
+
+.infos{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.infos > h1{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 0px 20px 0px 20px;
+}
+
+.infos > p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 0px 20px 0px 20px;
+}
+
+/* parte 3  */
+.divisao{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.esq2{
+  display: flex;
+  flex-direction: column;
+}
+.esq2 > h1{
+  font-size: 40px;
+  margin-bottom:30px ;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+}
+.esq2> p {
+  font-size: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+}
+
+.img2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img2 > img{
+  width: 300px;
+}
+
+/* parte 4 */
+
+.dir3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.dir3 > h1{
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.dir3 > p {
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.img3{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.img3 > img{
+  width: 300px;
+}
+
+/* parte 5 */
+
+
+.esq4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.esq4>h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom:30px ;
+}
+.esq4>p{
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+}
+.img4>img{
+  width: 300px;
+  height:300px;
+}
+/* parte 6 */
+.container-footer{
+  height: 20%;
+  
+}
+.esquerda{
+  text-align: center;
+}
+.contato{
+
+  margin: 15px;
+}
+.contato > h1,p {
+  margin: 3px;
+}
+.icon > img {
+  width: 30px;
+}
